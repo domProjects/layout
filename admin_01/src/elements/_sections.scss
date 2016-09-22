@@ -1,0 +1,79 @@
+//
+// file		: _sections.scss
+// source	: https://html.spec.whatwg.org/multipage/semantics.html#the-root-element
+//
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-body-element
+body {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-article-element
+article {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-section-element
+section {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-nav-element
+nav {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-aside-element
+aside {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+h1 {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+h2 {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+h3 {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+h4 {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+h5 {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+h6 {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-hgroup-element
+hgroup {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-header-element
+header {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-footer-element
+footer {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-address-element
+address {
+	@extend %reset !optional;
+}

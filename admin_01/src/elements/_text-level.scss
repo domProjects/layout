@@ -1,0 +1,149 @@
+//
+// file		: _text-level.scss
+// source	: https://html.spec.whatwg.org/multipage/semantics.html#text-level-semantics
+//
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-a-element
+a {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-em-element
+em {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-strong-element
+strong {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-small-element
+small {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-s-element
+s {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-cite-element
+cite {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-q-element
+q {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-dfn-element
+dfn {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-abbr-element
+abbr {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-ruby-element
+ruby {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-rt-element
+rt {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-rp-element
+rp {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-data-element
+data {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-time-element
+time {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-code-element
+code {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-var-element
+var {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-samp-element
+samp {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-kbd-element
+kbd {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-sub-and-sup-elements
+sub {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-sub-and-sup-elements
+sup {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-i-element
+i {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-b-element
+b {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-u-element
+u {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-mark-element
+mark {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-bdi-element
+bdi {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-bdo-element
+bdo {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-span-element
+span {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-br-element
+br {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-wbr-element
+wbr {
+	@extend %reset !optional;
+}

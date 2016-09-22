@@ -1,0 +1,13 @@
+//
+// file		: _reset.scss
+//
+
+//
+%reset {
+	@if $enable-reset-elements {
+		border: 0;
+		margin: 0;
+		padding: 0;
+		vertical-align: baseline;
+	}
+}

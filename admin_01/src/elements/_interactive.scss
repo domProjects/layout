@@ -1,0 +1,34 @@
+//
+// file		: _interactive.scss
+// source	: https://html.spec.whatwg.org/multipage/forms.html#interactive-elements
+//
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-details-element
+details {
+	@extend %reset !optional;
+
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-summary-element
+summary {
+	@extend %reset !optional;
+
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-menu-element
+menu {
+	@extend %reset !optional;
+
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-menuitem-element
+menuitem {
+	@extend %reset !optional;
+
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-dialog-element
+dialog {
+	@extend %reset !optional;
+
+}

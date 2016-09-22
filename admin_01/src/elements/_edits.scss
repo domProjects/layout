@@ -1,0 +1,14 @@
+//
+// file		: _edits.scss
+// source	: https://html.spec.whatwg.org/multipage/semantics.html#edits
+//
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-ins-element
+ins {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-del-element
+del {
+	@extend %reset !optional;
+}

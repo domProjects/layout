@@ -1,0 +1,26 @@
+//
+// file		: _footer.scss
+//
+
+/*
+ * FOOTER
+ */
+.footer__left {
+	flex: 0 1 50%;
+	display: flex;
+	align-items: center;
+}
+
+.footer__right {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.footer__left p,
+.footer__right p {
+	padding:0 20px;
+	font-size: 1rem;
+	color: #ffffff;
+}

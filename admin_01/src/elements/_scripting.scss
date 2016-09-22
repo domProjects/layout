@@ -1,0 +1,14 @@
+//
+// file		: _scripting.scss
+// source	: https://html.spec.whatwg.org/multipage/scripting.html#scripting-3
+//
+
+// https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
+template {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/scripting.html#the-canvas-element
+canvas {
+	@extend %reset !optional;
+}

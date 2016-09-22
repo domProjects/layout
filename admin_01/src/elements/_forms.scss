@@ -1,0 +1,80 @@
+//
+// file		: _forms.scss
+// source	: https://html.spec.whatwg.org/multipage/forms.html#forms
+//
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-form-element
+form {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-label-element
+label {
+	@extend %reset !optional;
+
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-input-element
+input {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-button-element
+button {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-select-element
+select {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-datalist-element
+datalist {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-optgroup-element
+optgroup {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-option-element
+option {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-textarea-element
+textarea {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-keygen-element
+keygen {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-output-element
+output {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-progress-element
+progress {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-meter-element
+meter {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-fieldset-element
+fieldset {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/forms.html#the-legend-element
+legend {
+	@extend %reset !optional;
+}

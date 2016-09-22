@@ -1,0 +1,69 @@
+//
+// file		: _embedded.scss
+// source	: https://html.spec.whatwg.org/multipage/embedded-content.html#embedded-content
+//
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element
+picture {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-source-element
+source {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element
+img {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-iframe-element
+iframe {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-embed-element
+embed {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-object-element
+object {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-param-element
+param {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-video-element
+video {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-audio-element
+audio {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-track-element
+track {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-map-element
+map {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#the-area-element
+area {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/embedded-content.html#svg-0
+svg {
+	@extend %reset !optional;
+}

@@ -1,0 +1,74 @@
+//
+// file		: _grouping.scss
+// source	: https://html.spec.whatwg.org/multipage/semantics.html#grouping-content
+//
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-p-element
+p {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-hr-element
+hr {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-pre-element
+pre {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-blockquote-element
+blockquote {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-ol-element
+ol {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-ul-element
+ul {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-li-element
+li {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-dl-element
+dl {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-dt-element
+dt {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-dd-element
+dd {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-figure-element
+figure {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-figcaption-element
+figcaption {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-main-element
+main {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-div-element
+div {
+	@extend %reset !optional;
+}

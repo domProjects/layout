@@ -1,0 +1,32 @@
+//
+// file		: _header.scss
+//
+
+/*
+ * HEADER
+ */
+.header__brand {
+	flex: 0 1 $header-brand-width;
+	display: flex;
+	align-items: center;
+	background-color: $header-brand-bg-color;
+}
+
+.header__brand h1 {
+	padding:0 20px;
+	font-size: 2rem;
+	color: #ffffff;
+}
+
+.header__title {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	background-color: $header-bg-color;
+}
+
+.header__title h2 {
+	padding:0 20px;
+	font-size: 1.5rem;
+	color: #ffffff;
+}

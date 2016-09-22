@@ -1,0 +1,20 @@
+//
+// file		: _hidden.scss
+//
+
+*:blank {
+	display: none;
+}
+
+// Only Mozilla pseudo class
+*:-moz-only-whitespace {
+	display: none;
+}
+
+[hidden] {
+	display: none !important;
+}
+
+div:empty {
+	display: none;
+}

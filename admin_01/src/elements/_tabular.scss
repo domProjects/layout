@@ -1,0 +1,54 @@
+//
+// file		: _tabular.scss
+// source	: https://html.spec.whatwg.org/multipage/tables.html#tables
+//
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-table-element
+table {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-caption-element
+caption {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element
+colgroup {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-col-element
+col {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element
+tbody {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-thead-element
+thead {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element
+tfoot {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-tr-element
+tr {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-td-element
+td {
+	@extend %reset !optional;
+}
+
+// https://html.spec.whatwg.org/multipage/tables.html#the-th-element
+th {
+	@extend %reset !optional;
+}

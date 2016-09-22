@@ -1,0 +1,142 @@
+//
+// file		: _obsolete.scss
+// source	: https://html.spec.whatwg.org/multipage/obsolete.html#obsolete
+//
+
+@if $enable-obsolete-elements {
+
+	// https://html.spec.whatwg.org/multipage/obsolete.html#the-applet-element
+	// Use `embed` or `object` instead
+	applet {
+		@extend %reset !optional;
+	}
+
+	// Use `abbr` instead
+	acronym {
+		@extend %reset !optional;
+	}
+
+	// Use `audio` instead
+	bgsound {
+		@extend %reset !optional;
+	}
+
+	// Use `ul` instead
+	dir {
+		@extend %reset !optional;
+	}
+
+	// https://html.spec.whatwg.org/multipage/obsolete.html#frame
+	// Use `iframe` instead
+	frame {
+		@extend %reset !optional;
+	}
+
+	// https://html.spec.whatwg.org/multipage/obsolete.html#frameset
+	// Use `iframe` instead
+	frameset {
+		@extend %reset !optional;
+	}
+
+	// Use `iframe` instead
+	noframes {
+		@extend %reset !optional;
+	}
+
+	// Use an explicit `form` and text control combination instead
+	isindex {
+		@extend %reset !optional;
+	}
+
+	// Use `pre` and `code` instead
+	listing {
+		@extend %reset !optional;
+	}
+
+	// Use GUIDs instead
+	nextid {
+		@extend %reset !optional;
+	}
+
+	// Use `object` instead of `embed` when fallback is necessary
+	noembed {
+		@extend %reset !optional;
+	}
+
+	// Use the "text/plain" MIME type instead
+	plaintext {
+		@extend %reset !optional;
+	}
+
+	// Providing the ruby base directly inside the ruby element or using nested `ruby` elements is sufficient
+	rb {
+		@extend %reset !optional;
+	}
+
+	// Providing the ruby base directly inside the ruby element or using nested `ruby` elements is sufficient
+	rtc {
+		@extend %reset !optional;
+	}
+
+	// Use `del` instead if the element is marking an edit, otherwise use `s` instead
+	strike {
+		@extend %reset !optional;
+	}
+
+	// Use `pre` and `code` instead, and escape "<" and "&" characters as "&lt;" and "&amp;" respectively
+	xmp {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	basefont {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	big {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	blink {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	center {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	font {
+		@extend %reset !optional;
+	}
+
+	// https://html.spec.whatwg.org/multipage/obsolete.html#the-marquee-element:the-marquee-element
+	// Use appropriate elements or CSS instead
+	marquee {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	multicol {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	nobr {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	spacer {
+		@extend %reset !optional;
+	}
+
+	// Use appropriate elements or CSS instead
+	tt {
+		@extend %reset !optional;
+	}
+
+}

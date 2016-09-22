@@ -1,0 +1,9 @@
+//
+// file		: _document.scss
+// source	: https://html.spec.whatwg.org/multipage/semantics.html#the-root-element
+//
+
+// https://html.spec.whatwg.org/multipage/semantics.html#the-html-element
+html {
+	@extend %reset !optional;
+}

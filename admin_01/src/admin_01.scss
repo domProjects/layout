@@ -1,0 +1,30 @@
+//
+// file		: admin_01.scss
+//
+
+//
+@import "variables";
+
+// Placeholder
+@import "placeholder/reset";
+
+// Elements
+@import "elements/document";
+@import "elements/sections";
+@import "elements/grouping";
+@import "elements/text-level";
+@import "elements/edits";
+@import "elements/embedded";
+@import "elements/tabular";
+@import "elements/forms";
+@import "elements/interactive";
+@import "elements/scripting";
+
+// Elements obsolette
+@import "elements/obsolete";
+
+// Content
+@import "content/document";
+@import "content/grid";
+@import "content/header";
+@import "content/footer";
