@@ -1,0 +1,65 @@
+//
+// file		: _nav.scss
+//
+
+// IN PROGRESS !!!
+
+/*
+ * NAV
+ */
+.nav ul li {
+	list-style-type: none;
+	border-bottom: 1px solid #fff;
+}
+.nav ul li.active > a {
+	color: #fff;
+}
+
+.nav ul li.active ul {
+	display: block;
+}
+
+.nav ul li a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 15px 20px;
+	outline: 0;
+}
+
+.nav ul li a:hover {
+	background-color: #bbb;
+	color: #fff;
+}
+
+.nav ul li a i {
+	padding-right:10px;
+}
+
+.nav ul li a i.pull-right {
+	padding-right: 0;
+}
+
+.nav ul li a span {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+// sub-menu
+.nav ul ul {
+	display: none;
+}
+
+.nav ul ul li {
+	background: #fff;
+	border-bottom: none;
+}
+
+.nav ul ul li:hover {
+	background: #ddd;
+}
+
+.nav ul ul li a {
+	padding: 10px 0 10px 54px;
+	color: #000;
+}
