@@ -3,7 +3,7 @@
 //
 
 // Version of the project
-$version:					0.1.0 !default;
+$version:					0.2.0 !default;
 
 // Options
 $enable-reset-elements:		true !default;
@@ -19,8 +19,8 @@ $html-font-size:			16px !default;
 // SECTIONS
 //
 // body element
-$body-bg:					#ffffff !default;
-$body-color:				#000000 !default;
+$body-bg:					#fff !default;
+$body-color:				#000 !default;
 
 $font-family-sans-serif:	-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-serif:			Georgia, "Times New Roman", Times, serif !default;
@@ -36,7 +36,7 @@ $line-height-base:			1.5 !default;
 // GRID
 //
 // common
-$section-height-base:		3.75rem !default;
+$section-height-base:		64px !default;
 $nav-width-base:			18.75rem !default;
 
 // header
