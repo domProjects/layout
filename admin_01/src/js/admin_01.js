@@ -5,40 +5,51 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 
 /* Ripple */
 $(function() {
-    var lnk, d, x, y;
+	var lnk, d, x, y;
 
-    $("a").each(function() {
-          $(this).addClass("ripple");
-      });
+	$("a").each(function() {
+		$(this).addClass("ripple");
+	});
 
-    $(".ripple").click(function(e) {
-        if ($(this).find(".lnk").length === 0) {
-            $(this).prepend("<span class="lnk"></span>");
-        }
-        lnk = $(this).find(".lnk").removeClass("animate");
-        if (!lnk.height() && !lnk.width()) {
-            d = Math.max($(this).outerWidth(), $(this).outerHeight());
-            lnk.css({
-                height: d,
-                width: d
-            });
-        }
-        x = e.pageX - $(this).offset().left - lnk.width() / 2;
-        y = e.pageY - $(this).offset().top - lnk.height() / 2;
-        lnk.css({
-            top: y + "px",
-            left: x + "px"
-        }).addClass("animate");
-    });
+    $(".ripple").on("click", function(e) {
+		if ($(this).find(".lnk").length === 0) {
+			$(this).prepend("<span class=\"lnk\"></span>");
+		}
+
+		lnk = $(this).find(".lnk").removeClass("animate");
+
+		if (!lnk.height() && !lnk.width()) {
+			d = Math.max($(this).outerWidth(), $(this).outerHeight());
+
+			lnk.css({
+				height: d,
+				width: d
+			});
+		}
+
+		x = e.pageX - $(this).offset().left - lnk.width() / 2;
+		y = e.pageY - $(this).offset().top - lnk.height() / 2;
+
+		lnk.css({
+			top: y + "px",
+			left: x + "px"
+		}).addClass("animate");
+	});
 });
 
-
-
+/* Nav */
 $(function() {
-	$(".sub-menu > a").click(function(e) {
+	$(".sub-menu > a").on("click", function(e) {
 		/*
 		$(".nav ul ul").slideUp(), $(this).addClass("active"), $(this).next().is(":visible") || $(this).next().slideDown(), $(this).next().is(":hidden"), e.stopPropagation();
 		*/
 		$(".nav ul ul").slideUp(250), $(this).next().is(":visible") || $(this).next().slideDown(250), $(this).next().is(":hidden"), e.stopPropagation();
+	});
+});
+
+
+$(function() {
+	$(".navicon").on("click", function() {
+		$(".content").toggleClass("content--open");
 	});
 });

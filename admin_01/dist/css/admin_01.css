@@ -2911,7 +2911,7 @@ body {
 }
 
 .header {
-  height: 64px;
+  height: 4rem;
   display: flex;
   flex-direction: row;
   background-color: #303f9f;
@@ -2924,11 +2924,12 @@ body {
 }
 
 .nav {
+  background-color: #ccc;
+  position: absolute;
   width: 18.75rem;
-  height: 100%;
+  height: calc(100vh - (4rem + 4rem));
   /*display: flex;
   flex-direction: row;*/
-  background-color: #ccc;
 }
 
 .content {
@@ -2936,10 +2937,15 @@ body {
   /*display: flex;
   flex-direction: row;*/
   background-color: #ddd;
+  transform: translate3d(0, 0, 0);
+  transition: transform .250s;
+}
+.content.content--open {
+  transform: translate3d(18.75rem, 0, 0);
 }
 
 .footer {
-  height: 64px;
+  height: 4rem;
   display: flex;
   flex-direction: row;
   background-color: #303f9f;

@@ -27,11 +27,12 @@
 }
 
 .nav {
+	background-color: $nav-bg-color;
+	position: absolute;
 	width: $nav-width;
-	height: 100%;
+	height: $nav-height;
 	/*display: flex;
 	flex-direction: row;*/
-	background-color: $nav-bg-color;
 }
 
 .content {
@@ -39,6 +40,11 @@
 	/*display: flex;
 	flex-direction: row;*/
 	background-color: $content-bg-color;
+	transform: translate3d(0, 0, 0);
+	transition: transform .250s;
+	&.content--open {
+		transform: translate3d($nav-width, 0, 0);
+	}
 }
 
 .footer {

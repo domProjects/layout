@@ -36,7 +36,7 @@ $line-height-base:			1.5 !default;
 // GRID
 //
 // common
-$section-height-base:		64px !default;
+$section-height-base:		4rem !default;
 $nav-width-base:			18.75rem !default;
 
 // header
@@ -45,13 +45,14 @@ $header-bg-color:			#303f9f !default;
 $header-brand-width:		$nav-width-base !default;
 $header-brand-bg-color:		#1a237e !default;
 
-// nav
-$nav-width:					$nav-width-base !default;
-$nav-bg-color:				#ccc !default;
-
 // content
 $content-bg-color:			#ddd !default;
 
 // footer
 $footer-height:				$section-height-base !default;
 $footer-bg-color:			#303f9f !default;
+
+// nav
+$nav-height:				calc(100vh - (#{$header-height} + #{$footer-height})) !default;
+$nav-width:					$nav-width-base !default;
+$nav-bg-color:				#ccc !default;
