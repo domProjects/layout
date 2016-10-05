@@ -5,7 +5,7 @@ $(function() {
 		$(this).addClass("ripple");
 	});
 
-    $(".ripple").on("click", function(e) {
+	$(".ripple").on("click", function(e) {
 		if ($(this).find(".lnk").length === 0) {
 			$(this).prepend("<span class=\"lnk\"></span>");
 		}
