@@ -32,18 +32,25 @@ $(function() {
 
 /* Nav */
 $(function() {
-	$(".sub-menu > a").on("click", function(e) {
-		$(".nav ul ul").slideUp(250), $(this).next().is(":visible") || $(this).next().slideDown(250), $(this).next().is(":hidden"), e.stopPropagation();
-	});
-});
+	if ($(".nav").length) {
+		$(".submenu > a").on("click", function(e) {
+			if ($(this).next(".submenu__list:visible").length) {
+				$(this).next(".submenu__list").slideUp(250, function() {
+					$(this).parent().removeClass("active");
+				});
+			} else {
+				$(".submenu__list").slideUp(250, function() {
+					$(this).parent().removeClass("active");
+				});
 
-/*
-$(function() {
-	$(".navicon").on("click", function() {
-		$(".content").toggleClass("content--open");
-	});
+				$(this).next(".submenu__list").slideDown(250, function() {
+					$(this).parent().addClass("active");
+				});
+			}
+			e.stopPropagation();
+		});
+	}
 });
-*/
 
 $(function() {
 	if ($(".navicon").length) {
@@ -64,9 +71,7 @@ $(function() {
 
 				localStorage.setItem("dp-navbar", toggle);
 			});
-		}
-		else
-		{
+		} else {
 			elem.addClass("content--open");
 		}
 	}

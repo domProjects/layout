@@ -24,6 +24,7 @@
 	flex: 1;
 	display: flex;
 	flex-direction: row;
+	background-color: $main-bg-color;
 }
 
 .nav {
@@ -41,8 +42,10 @@
 	flex-direction: row;*/
 	background-color: $content-bg-color;
 	transform: translate3d(0, 0, 0);
-	transition: transform .250s;
+	//transition: transform .250s;
+	transition: all .250s;
 	&.content--open {
+		flex: 0 1 $content-width-open;
 		transform: translate3d($nav-width, 0, 0);
 	}
 }

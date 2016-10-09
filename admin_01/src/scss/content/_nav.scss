@@ -7,66 +7,78 @@
 /*
  * NAV
  */
- .nav ul {
+.nav__content {
 	width: 100%;
 	height: 100%;
 	overflow-y: auto;
 	ms-touch-action: pan-y;
 	touch-action: pan-y;
+	& > li {
+		list-style-type: none;
+	}
 }
 
-.nav ul li {
-	list-style-type: none;
-}
-.nav ul li.active > a {
-	color: #fff;
-}
-
-.nav ul li.active ul {
-	display: block;
-}
-
-.nav ul li a {
-	color: #000;
+.nav__content li > a {
+	color: #616161;
 	text-decoration: none;
 	display: block;
-	padding: 15px 20px;
+	padding: 0 1.25rem;
 	outline: 0;
+	line-height: 3rem;
+	font-size: .8rem;
+	text-transform: uppercase;
 }
 
-.nav ul li a:hover {
-	background-color: #bbb;
+.nav__content li > a:hover {
+	background-color: $nav-hover-bg-color;
 	color: #fff;
 }
 
-.nav ul li a i {
-	padding-right:10px;
+.nav__content li.active > a:hover {
+	background-color: $nav-active-bg-color;
 }
 
-.nav ul li a i.pull-right {
-	padding-right: 0;
+.nav__content li.active > a {
+	color: #fff;
+	background-color: $nav-active-bg-color;
 }
 
-.nav ul li a span {
+.nav__content li > a span {
 	display: inline-block;
-	margin-left: 5px;
+	margin-left: 15px;
 }
 
-// sub-menu
-.nav ul ul {
+.nav__content li > a i:last-child {
+	float: right;
+	line-height: inherit;
+	padding-right: 0;
+	transition: transform .200s;
+}
+
+.nav__content li.active > a i:last-child {
+	transform: rotate(90deg);
+}
+
+.nav__content li.active ul {
+	display: block;
+}
+
+
+// sub menu
+.submenu__list {
 	display: none;
 }
 
-.nav ul ul li {
-	background: #fff;
+.submenu__list li {
+	background-color: $nav-sub-bg-color;
 	border-bottom: none;
 }
 
-.nav ul ul li:hover {
-	background: #ddd;
+.submenu__list li > a {
+	line-height: 3rem;
+	padding-left: 54px;
 }
 
-.nav ul ul li a {
-	padding: 10px 0 10px 54px;
-	color: #000;
+.submenu__list li > a:hover {
+	background-color: $nav-sub-hover-bg-color;
 }
