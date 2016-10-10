@@ -32,9 +32,16 @@
 	align-items: center;
 }
 
-.header__event--nav .navicon i {
-	color: #fff;
+.header__event--nav .navicon__toggle {
+	color: #2196F3;
+	font-family: FontAwesome;
 	font-size: 1.5rem;
+	&:before {
+		content: "\f0c9";
+	}
+	&.navicon__toggle--open:before {
+		content: "\f00d";
+	}
 }
 
 .header__title {
