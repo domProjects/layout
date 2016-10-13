@@ -20,6 +20,7 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 				$lnk.css({
 					"height": $d,
 					"width": $d
+<<<<<<< HEAD
 				});
 			}
 			$x = e.pageX - $(this).offset().left - $lnk.width() / 2;
@@ -73,11 +74,14 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 					localStorage.setItem("dp-navbar", $toggle);
 
 					e.stopPropagation();
+=======
+>>>>>>> origin/master
 				});
 			} else {
 				$content.addClass("content--open");
 				$navicon.addClass("navicon__toggle--open");
 			}
+<<<<<<< HEAD
 		}
 
 
@@ -144,5 +148,64 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 			});
 
 
+=======
+			$x = e.pageX - $(this).offset().left - $lnk.width() / 2;
+			$y = e.pageY - $(this).offset().top - $lnk.height() / 2;
+			$lnk.css({
+				"top": $y + "px",
+				"left": $x + "px"
+			}).addClass("animate");
+		});
+
+		/* Nav ul/li */
+		if ($(".nav").length) {
+			var $elem = ".submenu__list";
+			$(".submenu > a").on("click", function(e) {
+				if ($(this).next($elem + ":visible").length) {
+					$(this).next($elem).slideUp(250, function() {
+						$(this).parent().removeClass("active");
+					});
+				} else {
+					$($elem).slideUp(250, function() {
+						$(this).parent().removeClass("active");
+					});
+
+					$(this).next($elem).slideDown(250, function() {
+						$(this).parent().addClass("active");
+					});
+				}
+				e.stopPropagation();
+			});
+		}
+
+		/* Open/Close section NAV & change status icon in section HEADER */
+		if ($(".navicon").length) {
+			var $content = $(".content"),
+				$navicon = $(".navicon__toggle");
+
+			if (localStorage) {
+				var $toggle = localStorage.getItem("dp-navbar");
+
+				$toggle = $toggle == "true";
+
+				$content.toggleClass("content--open", $toggle);
+				$navicon.toggleClass("navicon__toggle--open", $toggle);
+
+				$(".navicon").on("click", function(e) {
+					$toggle = !$toggle;  
+
+					$content.toggleClass("content--open", $toggle);
+					$navicon.toggleClass("navicon__toggle--open", $toggle);
+
+					localStorage.setItem("dp-navbar", $toggle);
+
+					e.stopPropagation();
+				});
+			} else {
+				$content.addClass("content--open");
+				$navicon.addClass("navicon__toggle--open");
+			}
+		}
+>>>>>>> origin/master
 	});
 })(jQuery);
